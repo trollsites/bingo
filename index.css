@@ -10,13 +10,19 @@ html {
 body {
   display: table;
   height: 600px;
+  text-align: center;
+  background: antiquewhite;
   /*vertical-align: middle;*/
 }
 
-#main {
-  display: table-cell;
-  vertical-align: middle;
+#header{
   text-align: center;
+  color: white;
+}
+
+div.wrapper {
+  /*display: table-cell;*/
+  vertical-align: middle;
   line-height: 100px;
 }
 

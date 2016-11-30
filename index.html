@@ -2,18 +2,16 @@
 <html>
 <head>
 <title>Bingo</title>
-<!--<link rel="stylesheet" href="index.css">-->
-<link rel="stylesheet" media="screen" href="index.css" type="text/css" />
-<link rel="stylesheet" media="handheld" href="mobile.css" type="text/css" />
+<link rel="stylesheet" href="index.css">
 </head>
-<body>
-  <div id="main">
+<body id="body">
+  <div id="main" class="wrapper">
     <div class="row" id="main">
       <div class="done" onclick="gen(3, 3)">3 by 3</div>
       <div class="box" onclick="gen(5, 5)">5 by 5</div>
     </div>
   </div>
-
+  <div id="header"></div>
   <script src="index.js"></script>
 </body>
 </html> 
