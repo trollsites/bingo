@@ -1,0 +1,41 @@
+html, body {
+  height: 100%;
+}
+
+html {
+  display: table;
+  margin: auto;
+}
+
+body {
+  display: table;
+  height: 600px;
+  /*vertical-align: middle;*/
+}
+
+#main {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  line-height: 100px;
+}
+
+div.box{
+  color: black;
+  margin: 1px;
+  display: inline-block;
+  /*border: 1px solid blue;*/
+  width: 150px;
+  height: 100px;
+  background: gray;
+}
+
+div.done{
+  margin: 1px;
+  color: black;
+  background: darkgreen;
+  display: inline-block;
+  /*border: 1px solid green;*/
+  width: 150px;
+  height: 100px;
+}
